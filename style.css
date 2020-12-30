@@ -1,0 +1,111 @@
+body {
+  background: url("https://mbfgame.info/wp-content/uploads/2016/08/abstract_blue_minimalistic_gradient_colors_Wallpaper_2560x1440_www.wallpaperswa.com_.jpg")
+    center/cover no-repeat fixed;
+}
+
+.wrapper {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 40px;
+  right: 0;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.box {
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  text-align: center;
+  padding: 10px;
+}
+
+.wrapper h1 {
+  margin: 0 0 10% 0;
+  text-transform: uppercase;
+}
+
+.wrapper p {
+  margin: -20% 0 0 0;
+  text-transform: uppercase;
+}
+
+.client__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  margin: 10px;
+  padding: 1px 3px;
+  user-select: none;
+  font-weight: bolder;
+}
+
+.btn:hover {
+  color: white;
+  cursor: pointer;
+  filter: drop-shadow(1px 1px 5px #000);
+}
+
+.client {
+  border: 1px solid black;
+  max-width: 700px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.client__img {
+  position: relative;
+  bottom: 50px;
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background: url(https://iphone-image.apkpure.com/v2/app/8/6/0/86013d5fce22236e8313d4542e85d4b7.jpg)
+    center/cover no-repeat;
+}
+
+.client__name {
+  display: flex;
+  margin-top: -30px;
+}
+
+.client__estimation {
+  margin-top: 10px;
+  user-select: none;
+}
+
+.client__star {
+  height: 20px;
+}
+
+.client__feedback {
+  margin-top: 20px;
+}
